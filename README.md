@@ -29,7 +29,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: CCF deploy
-        uses: caleteeter/ct-ccf-deploy@v0.1.3-alpha
+        uses: msftsettiy/azure-managedccf-deploy-app-action@v0.1.0-alpha
         id: deploy
         env:
           CERTD: ${{ secrets.MEMBERCERT }}
