@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pwd
+ls -l /home/runner/work/azure-managedccf-tools/azure-managedccf-tools
 cp $1 /opt/ccf_sgx/bin
 
 echo "$CERTD" > /opt/ccf_sgx/bin/cert
