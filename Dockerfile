@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/ccf/app/dev:4.0.1-sgx
+FROM mcr.microsoft.com/ccf/app/dev:4.0.7-sgx
 
 RUN apt update && \
     apt install -y \
